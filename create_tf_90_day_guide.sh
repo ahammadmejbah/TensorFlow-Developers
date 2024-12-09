@@ -232,55 +232,55 @@ touch TensorFlow_90_Day_Guide/Models/custom_models/*
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase1
 for day in {1..10}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase1/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase1/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase2
 for day in {11..20}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase2/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase2/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase3
 for day in {21..30}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase3/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase3/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase4
 for day in {31..40}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase4/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase4/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase5
 for day in {41..50}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase5/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase5/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase6
 for day in {51..60}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase6/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase6/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase7
 for day in {61..70}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase7/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase7/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase8
 for day in {71..80}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase8/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase8/Day${day}.ipynb
 done
 
 mkdir -p TensorFlow_90_Day_Guide/Notebooks/Phase9
 for day in {81..90}
 do
-    touch TensorFlow_90_Day_Guide/Notebooks/Phase9/Day${day}_*.ipynb
+    touch TensorFlow_90_Day_Guide/Notebooks/Phase9/Day${day}.ipynb
 done
 
 touch TensorFlow_90_Day_Guide/Notebooks/Capstone_Project.ipynb
