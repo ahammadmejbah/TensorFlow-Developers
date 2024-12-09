@@ -1,197 +1,270 @@
-### <center>**TensorFlow Developer 90-Day Mastery Guide**</center>
+# TensorFlow 90-Day
+
+<body>
+<p align="center">
+  <a href="mailto:ahammadmejbah@gmail.com"><img src="https://img.shields.io/badge/Email-ahammadmejbah%40gmail.com-blue?style=flat-square&logo=gmail"></a>
+  <a href="https://github.com/BytesOfIntelligences"><img src="https://img.shields.io/badge/GitHub-%40BytesOfIntelligences-lightgrey?style=flat-square&logo=github"></a>
+  <a href="https://linkedin.com/in/ahammadmejbah"><img src="https://img.shields.io/badge/LinkedIn-Mejbah%20Ahammad-blue?style=flat-square&logo=linkedin"></a>
+  <a href="https://bytesofintelligences.com/"><img src="https://img.shields.io/badge/Website-Bytes%20of%20Intelligence-lightgrey?style=flat-square&logo=google-chrome"></a>
+  <a href="https://www.youtube.com/@BytesOfIntelligences"><img src="https://img.shields.io/badge/YouTube-BytesofIntelligence-red?style=flat-square&logo=youtube"></a>
+  <a href="https://www.researchgate.net/profile/Mejbah-Ahammad-2"><img src="https://img.shields.io/badge/ResearchGate-Mejbah%20Ahammad-blue?style=flat-square&logo=researchgate"></a>
+  <br>
+  <img src="https://img.shields.io/badge/Phone-%2B8801874603631-green?style=flat-square&logo=whatsapp">
+  <a href="https://www.hackerrank.com/profile/ahammadmejbah"><img src="https://img.shields.io/badge/Hackerrank-ahammadmejbah-green?style=flat-square&logo=hackerrank"></a>
+</p>
+</body>
+
+<div align="center">
+  <img src="https://media.giphy.com/media/l0HlSNOxJB956qwfK/giphy.gif" alt="TensorFlow Animation" width="600"/>
+</div>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/ahammadmejbah/TensorFlow-Developers.svg?style=social&label=Star)](https://github.com/ahammadmejbah/TensorFlow-Developers/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ahammadmejbah/TensorFlow-Developers.svg?style=social&label=Fork)](https://github.com/ahammadmejbah/TensorFlow-Developers/network)
+[![Twitter Follow](https://img.shields.io/twitter/follow/yourhandle.svg?style=social&label=Follow)](https://twitter.com/yourhandle)
+
+## 🌟 Introduction
+
+Welcome to the **TensorFlow 90-Day Guide**, your comprehensive roadmap to mastering TensorFlow and Neural Networks in just three months! This guide is meticulously structured to take you from a beginner to an advanced practitioner, equipped with the knowledge and hands-on experience to build, train, and deploy sophisticated machine learning models.
 
 
-## **Phase 1: Foundations of TensorFlow (Day 1-30)**  
-*Goal: Establish a deep understanding of TensorFlow basics and foundational ML concepts.*
+## 🎯 Objectives
+
+- **Foundations of Python and Mathematics**: Strengthen your Python skills and grasp essential mathematical concepts.
+- **Introduction to TensorFlow and Keras**: Learn the basics of TensorFlow and Keras to build your first neural networks.
+- **Core Concepts of Neural Networks**: Dive deep into neural network architectures, activation functions, loss functions, and optimization algorithms.
+- **Advanced Neural Network Architectures**: Explore convolutional neural networks (CNNs), recurrent neural networks (RNNs), and transformers.
+- **Specialized Models and Techniques**: Master autoencoders, generative adversarial networks (GANs), and natural language processing (NLP) models.
+- **Model Optimization and Deployment**: Learn hyperparameter tuning, model compression, and deploying models as REST APIs.
+- **Advanced TensorFlow Techniques**: Implement custom layers, distributed training, and performance optimization.
+- **Exploring Various Applications**: Apply your skills to object detection, image segmentation, time series forecasting, and anomaly detection.
+- **Capstone Projects and Review**: Consolidate your learning through end-to-end projects and comprehensive reviews.
+
+## 📁 Directory Structure
+
+```
+TensorFlow_90_Day_Guide/
+├── Phase1_Foundations_of_Python_and_Mathematics/
+│   ├── Day1_Python_Basics_Refresher/
+│   │   ├── README.md
+│   │   ├── Lecture_Notes.ipynb
+│   │   ├── Exercises.ipynb
+│   │   ├── Scripts/
+│   │   │   └── Day1_Python_Basics_Refresher.py
+│   │   └── Resources.md
+│   ├── Day2_Python_Data_Structures/
+│   │   └── ...
+│   └── ...
+├── Phase2_Introduction_to_TensorFlow_and_Keras/
+│   ├── Day11_Setting_Up_the_Environment/
+│   │   └── ...
+│   └── ...
+├── ...
+├── Data/
+│   ├── MNIST/
+│   │   └── ...
+│   ├── CIFAR-10/
+│   │   └── ...
+│   ├── IMDb/
+│   │   └── ...
+│   └── custom_dataset/
+│       └── ...
+├── Models/
+│   └── ...
+├── Notebooks/
+│   └── ...
+├── Scripts/
+│   ├── common/
+│   │   └── ...
+│   └── Phase1/
+│       └── ...
+├── Projects/
+│   ├── Project1_End-to-End_Image_Classification/
+│   │   └── ...
+│   ├── Project2_Text_Generation_with_Transformers/
+│   │   └── ...
+│   └── Project3_Real-Time_Object_Detection_System/
+│       └── ...
+├── Additional_Tips_and_Resources/
+│   └── ...
+├── README.md
+├── LICENSE
+└── Requirements.txt
+```
+
+## 📚 Getting Started
+
+### Prerequisites
+
+- **Python 3.7+**
+- **Git**
+- **TensorFlow 2.x**
+- **Jupyter Notebook or JupyterLab**
+
+### Installation
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/ahammadmejbah/TensorFlow-Developers.git
+    cd TensorFlow-Developers
+    ```
+
+2. **Set Up Virtual Environment**
+    ```bash
+    python3 -m venv tf_env
+    source tf_env/bin/activate  # On Windows: tf_env\Scripts\activate
+    pip install -r Requirements.txt
+    ```
+
+3. **Launch Jupyter Notebook**
+    ```bash
+    jupyter notebook
+    ```
+
+## 📝 Usage
+
+Navigate through each phase and day, completing the exercises and projects to build your TensorFlow expertise. Here's how to make the most out of this guide:
+
+1. **Phase Structure**: Each phase covers a specific aspect of TensorFlow and Neural Networks. Start from Phase 1 and proceed sequentially.
+2. **Daily Learning**: Each day within a phase focuses on a particular topic with lecture notes, exercises, and scripts.
+3. **Hands-On Practice**: Utilize the Jupyter notebooks and Python scripts to implement and experiment with concepts.
+4. **Projects**: Apply your knowledge through comprehensive projects that simulate real-world machine learning tasks.
+5. **Resources**: Access additional resources, best practices, and tips to enhance your learning journey.
+
+### Example: Running a Script
+
+Here's an example of how to run a Python script from Phase 1:
+
+```bash
+# Navigate to the day's Scripts directory
+cd Phase1_Foundations_of_Python_and_Mathematics/Day1_Python_Basics_Refresher/Scripts
+
+# Run the Python script
+python Day1_Python_Basics_Refresher.py
+```
+
+### Example: Using a Jupyter Notebook
+
+Open the Jupyter notebook for Day 1 to follow along with the lecture notes and complete the exercises.
+
+```bash
+# From the root directory
+jupyter notebook
+```
+
+## 🎉 Projects
+
+### 1. End-to-End Image Classification
+Build a complete image classification model from data preprocessing to deployment.
+
+**Features:**
+- Data Loading and Preprocessing
+- Building CNN Models with TensorFlow and Keras
+- Training and Evaluation
+- Model Saving and Loading
+- Deployment as a REST API
+
+**Example Code:**
+
+```python
+# Scripts/train_model.py
+
+import tensorflow as tf
+from tensorflow.keras import layers, models
+from tensorflow.keras.datasets import mnist
+
+# Load data
+(train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+
+# Preprocess data
+train_images = train_images.reshape((60000, 28, 28, 1)).astype('float32') / 255
+test_images = test_images.reshape((10000, 28, 28, 1)).astype('float32') / 255
+
+# Build model
+model = models.Sequential([
+    layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)),
+    layers.MaxPooling2D((2, 2)),
+    layers.Conv2D(64, (3, 3), activation='relu'),
+    layers.MaxPooling2D((2, 2)),
+    layers.Flatten(),
+    layers.Dense(64, activation='relu'),
+    layers.Dense(10, activation='softmax')
+])
+
+# Compile model
+model.compile(optimizer='adam',
+              loss='sparse_categorical_crossentropy',
+              metrics=['accuracy'])
+
+# Train model
+model.fit(train_images, train_labels, epochs=5, batch_size=64, validation_split=0.1)
+
+# Save model
+model.save('saved_model/mnist_cnn.h5')
+```
+
+### 2. Text Generation with Transformers
+Create a text generation model using transformer architectures.
+
+### 3. Real-Time Object Detection System
+Develop and deploy a real-time object detection application.
+
+## 🛠️ Tools and Technologies
+
+- **Python**
+- **TensorFlow**
+- **Keras**
+- **Jupyter Notebook**
+- **Docker** (for deployment)
+- **Git**
+- **NumPy**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+
+## 📈 Progress Tracking
+
+Track your progress through each phase and day by committing your work and documenting your learning journey. Utilize Git for version control and regularly update your repository to reflect your advancements.
+
+## 🤝 Contributing
+
+Contributions are welcome! Whether you're reporting a bug, suggesting an enhancement, or contributing code, your input is valuable. Please follow these steps:
+
+1. **Fork the Repository**
+2. **Create a Feature Branch**
+    ```bash
+    git checkout -b feature/YourFeatureName
+    ```
+3. **Commit Your Changes**
+    ```bash
+    git commit -m "Add some feature"
+    ```
+4. **Push to the Branch**
+    ```bash
+    git push origin feature/YourFeatureName
+    ```
+5. **Open a Pull Request**
+
+Please read the [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+For any questions or suggestions, feel free to open an issue or contact me:
+
+- **Email**: [ahammadmejbah@gmail.com](mailto:ahammadmejbah@gmail.com)
+- **GitHub**: [@BytesOfIntelligences](https://github.com/BytesOfIntelligences)
+- **LinkedIn**: [Mejbah Ahammad](https://linkedin.com/in/ahammadmejbah)
+- **Website**: [Bytes of Intelligence](https://bytesofintelligences.com/)
+- **YouTube**: [Bytes of Intelligence](https://www.youtube.com/@BytesOfIntelligences)
+- **ResearchGate**: [Mejbah Ahammad](https://www.researchgate.net/profile/Mejbah-Ahammad-2)
+- **Phone**: +8801874603631
+- **HackerRank**: [ahammadmejbah](https://www.hackerrank.com/profile/ahammadmejbah)
 
 ---
-
-### **Week 1: Core TensorFlow Essentials**  
-- **Day 1:** Introduction to TensorFlow Ecosystem  
-  - Overview: TensorFlow, Keras, TFLite, TensorFlow.js, TensorFlow Serving.  
-  - Install TensorFlow on local machines and cloud environments (Google Colab, AWS, GCP).  
-  - Hands-on: Verify setup and execute a simple program.
-
-- **Day 2:** Understanding Tensors  
-  - Basics: Rank, shape, data types of tensors.  
-  - Operations: Broadcasting, reshaping, arithmetic operations.  
-  - Hands-on: Create and manipulate tensors.
-
-- **Day 3:** Variables and Constants  
-  - Creating and updating `tf.Variable`.  
-  - Differences between `tf.Variable` and `tf.constant`.  
-  - Hands-on: Use variables to define and update model parameters.
-
-- **Day 4:** TensorFlow Data Pipelines  
-  - Efficient data loading with `tf.data.Dataset`.  
-  - Dataset transformations: map, batch, shuffle, prefetch.  
-  - Hands-on: Create a pipeline for loading and preprocessing an image dataset.
-
-- **Day 5:** Linear Regression with TensorFlow  
-  - Theoretical introduction to linear regression.  
-  - Gradient descent and loss optimization.  
-  - Hands-on: Predict house prices using the Boston Housing dataset.
-
-- **Day 6:** Logistic Regression for Classification  
-  - Sigmoid activation and binary cross-entropy loss.  
-  - Hands-on: Build a binary classifier for the Iris dataset.
-
-- **Day 7:** Review and Mini-Project  
-  - Implement a small pipeline to preprocess data, train, and evaluate a regression/classification model.
-
----
-
-### **Week 2: Building Neural Networks**
-- **Day 8:** Basics of Neural Networks  
-  - Introduction to perceptrons, weights, biases, and activations.  
-  - Concepts of forward propagation and backpropagation.  
-  - Hands-on: Implement a basic perceptron using TensorFlow.
-
-- **Day 9:** Keras Sequential API  
-  - Building, compiling, and training models using the Sequential API.  
-  - Hands-on: Train an MLP (Multilayer Perceptron) on the MNIST dataset.
-
-- **Day 10:** Functional API for Custom Models  
-  - Build models with multi-input/output and custom layers.  
-  - Hands-on: Implement a skip-connection model using the Functional API.
-
-- **Day 11:** Optimizers and Loss Functions  
-  - Overview of popular optimizers: SGD, Adam, RMSProp.  
-  - Common loss functions: Mean Squared Error (MSE), Cross-Entropy.  
-  - Hands-on: Experiment with optimizers for different models.
-
-- **Day 12:** Regularization Techniques  
-  - Overfitting vs underfitting.  
-  - Techniques: Dropout, L1/L2 regularization, and early stopping.  
-  - Hands-on: Apply regularization to reduce overfitting.
-
-- **Day 13:** Convolutional Neural Networks (CNNs) Basics  
-  - Convolutional layers, pooling, stride, and padding.  
-  - Hands-on: Train a CNN on CIFAR-10.
-
-- **Day 14:** TensorBoard for Monitoring and Debugging  
-  - Track metrics, visualize graphs, and analyze training progress.  
-  - Hands-on: Integrate TensorBoard into a model training pipeline.
-
----
-
-### **Week 3: Data Augmentation and Deployment**
-- **Day 15:** Data Augmentation Techniques  
-  - Use `tf.image` to augment datasets with flipping, rotation, cropping, and normalization.  
-  - Hands-on: Apply augmentation to improve model generalization.
-
-- **Day 16:** TFRecord Data Format  
-  - Create and load datasets using the TFRecord format.  
-  - Hands-on: Convert an image dataset to TFRecord.
-
-- **Day 17:** Transfer Learning with Pre-trained Models  
-  - Utilize models like MobileNet, ResNet, and EfficientNet.  
-  - Hands-on: Fine-tune MobileNet for a custom dataset.
-
-- **Day 18:** Saving and Loading Models  
-  - Save models in HDF5 and SavedModel formats.  
-  - Hands-on: Load and use a saved model for predictions.
-
-- **Day 19:** Introduction to TensorFlow Lite  
-  - Optimize and convert models for edge and mobile devices.  
-  - Hands-on: Deploy a TFLite model on an Android app.
-
-- **Day 20:** TensorFlow.js for Browser Applications  
-  - Deploy TensorFlow models on the web.  
-  - Hands-on: Build a browser-based image classifier.
-
-- **Day 21:** Consolidation and Mini-Project  
-  - Build a complete pipeline to preprocess, train, and deploy a TensorFlow model.
-
----
-
-## **Phase 2: Advanced TensorFlow (Day 31-60)**  
-*Goal: Master advanced TensorFlow concepts, architectures, and optimizations.*
-
----
-
-### **Week 4: Advanced Neural Architectures**
-- **Day 22:** Advanced CNN Architectures  
-  - Deep dive into ResNet, VGG, and EfficientNet.  
-  - Hands-on: Train ResNet on CIFAR-100.
-
-- **Day 23:** Recurrent Neural Networks (RNNs)  
-  - Basics of RNNs for sequential data.  
-  - Hands-on: Train an RNN for text data.
-
-- **Day 24:** Long Short-Term Memory (LSTM) Networks  
-  - Learn LSTMs for time-series and text generation.  
-  - Hands-on: Implement an LSTM for stock price forecasting.
-
-- **Day 25:** Attention Mechanisms  
-  - Introduction to self-attention and sequence-to-sequence models.  
-  - Hands-on: Build a translation model with attention.
-
-- **Day 26:** Transformers and BERT  
-  - The Transformer architecture.  
-  - Hands-on: Fine-tune BERT for sentiment analysis.
-
----
-
-### **Week 5: Specialized Topics**
-- **Day 27:** Generative Adversarial Networks (GANs)  
-  - Overview of GANs and their components.  
-  - Hands-on: Train a GAN to generate synthetic images.
-
-- **Day 28:** Autoencoders and Variational Autoencoders (VAEs)  
-  - Dimensionality reduction and anomaly detection.  
-  - Hands-on: Train a VAE for data reconstruction.
-
-- **Day 29:** Reinforcement Learning with TensorFlow  
-  - Basics of reinforcement learning.  
-  - Hands-on: Train an RL agent using TensorFlow.
-
-- **Day 30:** Distributed Training  
-  - Utilize `tf.distribute.Strategy` for multi-GPU training.  
-  - Hands-on: Train a CNN across multiple GPUs.
-
----
-
-### **Week 6: Hyperparameter Tuning and Optimization**
-- **Day 31-33:** Hyperparameter Tuning  
-  - Use TensorFlow Keras Tuner to automate hyperparameter optimization.  
-  - Hands-on: Optimize CNN architectures.
-
-- **Day 34-35:** Model Optimization Techniques  
-  - Quantization, pruning, and weight clustering for deployment.  
-  - Hands-on: Deploy an optimized model on mobile.
-
-- **Day 36:** Consolidation and Advanced Project  
-  - Build a fully optimized training pipeline for a real-world use case.
-
----
-
-## **Phase 3: Real-World Applications (Day 61-90)**  
-*Goal: Develop specialized domain knowledge and build end-to-end TensorFlow projects.*
-
----
-
-### **Weeks 7-8: Domain-Specific Applications**
-- **Day 37-42:** Computer Vision  
-  - Object detection (Faster R-CNN, YOLO).  
-  - Image segmentation (UNet).  
-  - Hands-on: Build a custom object detection pipeline.
-
-- **Day 43-47:** Natural Language Processing  
-  - Tokenization, embeddings, and Transformers.  
-  - Hands-on: Train a text summarization model.
-
-- **Day 48-52:** Time-Series Analysis  
-  - Forecasting and anomaly detection with RNNs and LSTMs.  
-  - Hands-on: Build a model for stock price forecasting.
-
----
-
-### **Weeks 9-10: Capstone Project**
-- **Day 53-90:** Build a Full-Scale TensorFlow Application  
-  - **Steps:**  
-    1. Select a domain: Vision, NLP, GANs, or Time-Series.  
-    2. Collect and preprocess data.  
-    3. Train, optimize, and evaluate a TensorFlow model.  
-    4. Deploy using TensorFlow Serving, TFLite, or TensorFlow.js.  
-    5. Create a user interface with Streamlit or Flask.  
+<div align="center">
+  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Thank You Animation" width="600"/>
+</div>
